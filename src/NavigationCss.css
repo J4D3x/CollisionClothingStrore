@@ -1,0 +1,104 @@
+#navigationMain{
+    z-index: 9999 !important ;
+    top:0px;
+    display: block;
+    position: sticky;
+    text-align: left;
+    backdrop-filter: blur(15px);
+    margin: 0;
+    transform: f;
+    
+}
+#navigationMain:hover{
+background-color: rgba(22, 22, 22, 0.3);
+    
+}
+#navigationMain p{
+    text-align: center;
+}
+#navigationMain img{
+    width:13em;
+    margin: 0;
+}
+#dropdownMenu{
+    display: block;
+    margin: 0;
+    float: left;
+}
+#dropdownMenu button{
+    background-color: transparent;
+    border: none;
+    margin-left: 0px;
+    margin-right: -50px;
+    padding-top: 10px;
+    text-shadow: 0 0 3px rgb(0, 0, 0);
+
+}
+#dropdownMenu #ish li{
+    list-style: none;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 10px rgb(255, 0, 123);
+    padding: 10px;
+    text-align: left;
+    margin: 20px;
+    border-bottom: solid 3px rgba(255, 255, 255, 0.057);
+    transition: font-size 0.2s ;
+    animation-name: opacityAni;
+    animation-duration: 2s;
+    animation-delay: 0s;
+}
+#dropdownMenu #ish a {
+    text-align: right;
+    text-decoration: none;
+     margin: 0;
+    
+}
+#dropdownMenu #ish li:hover {
+    font-size: 18px;
+    text-decoration: none;
+    color: rgba(255, 130, 240, 0.816);
+}
+
+#dropdownMenu button:hover {
+    color: rgba(222, 23, 212, 0.972);
+    text-shadow: 0 0 10px rgba(222, 23, 212, 0.972);
+   
+}
+#style_of_x{
+        color:white;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 2em;
+        text-align: right;
+        padding-right: 30px;
+        transition: font-size 0.2s ;
+        
+    }            
+#style_of_x:hover{
+     color: rgba(222, 23, 212, 0.972);
+    text-shadow: 0 0 10px rgba(222, 23, 212, 0.972);
+        font-size: 2.1em;
+    }   
+
+#ish{
+    
+    }
+    
+    
+@keyframes slideLeftRight{
+
+    to{transform:  translateX(-30em);}
+
+}
+@keyframes opacityAni{
+
+    from{transform:  translateY(-30em);}
+}
+@keyframes opacityAni2{
+
+    from{transform:  translateX(+40em);}
+}
+@keyframes slideLeftRight2{
+
+    from{transform:  translateX(-30em);}
+}
