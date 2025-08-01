@@ -4,13 +4,13 @@
     display: block;
     position: sticky;
     text-align: left;
-    backdrop-filter: blur(15px);
+    backdrop-filter: blur(8px);
     margin: 0;
     transform: f;
     
 }
 #navigationMain:hover{
-background-color: rgba(22, 22, 22, 0.3);
+background-color: rgba(0, 0, 0, 0.344);
     
 }
 #navigationMain p{
@@ -19,11 +19,17 @@ background-color: rgba(22, 22, 22, 0.3);
 #navigationMain img{
     width:13em;
     margin: 0;
+    transition: width 0.3s ease-in-out ;
 }
+#navigationMain img:hover{
+    width:14em;
+}
+
 #dropdownMenu{
     display: block;
     margin: 0;
     float: left;
+    
 }
 #dropdownMenu button{
     background-color: transparent;
@@ -39,7 +45,7 @@ background-color: rgba(22, 22, 22, 0.3);
     text-decoration: none;
     color: rgb(255, 255, 255);
     text-shadow: 0 0 10px rgb(255, 0, 123);
-    padding: 10px;
+    padding: 2px;
     text-align: left;
     margin: 20px;
     border-bottom: solid 3px rgba(255, 255, 255, 0.057);
@@ -69,9 +75,11 @@ background-color: rgba(22, 22, 22, 0.3);
         color:white;
         font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         font-size: 2em;
-        text-align: right;
         padding-right: 30px;
         transition: font-size 0.2s ;
+        margin: 0;
+        margin-left: 10px;
+        display: inline-block;
         
     }            
 #style_of_x:hover{
@@ -81,13 +89,18 @@ background-color: rgba(22, 22, 22, 0.3);
     }   
 
 #ish{
+    border-right: solid 2px rgba(255, 255, 255, 0.505);
     
+    }
+#ish{
+    height: 50vh;
+    overflow: auto;
     }
     
     
 @keyframes slideLeftRight{
 
-    to{transform:  translateX(-30em);}
+    to{transform:  translateX(-40em);}
 
 }
 @keyframes opacityAni{
@@ -96,7 +109,11 @@ background-color: rgba(22, 22, 22, 0.3);
 }
 @keyframes opacityAni2{
 
-    from{transform:  translateX(+40em);}
+    from{transform:  translateY(-80em);}
+}
+@keyframes opacityAni3{
+
+    to{transform:  translateY(-60em);}
 }
 @keyframes slideLeftRight2{
 

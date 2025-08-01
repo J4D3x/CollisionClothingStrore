@@ -1,0 +1,88 @@
+#main{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.993),rgba(134, 0, 127, 0.085)),url(images/CollisionOn/spot.jpg);
+    background-size:cover;
+    background-position: 0;
+    background-repeat:no-repeat;
+    display:block;
+    margin-left: 0em;
+    text-align: center;
+    padding-left: 0em;
+    background-color:  rgba(23, 23, 23, 0);
+    color: rgb(255, 255, 255);
+    height: 90vh;
+    overflow: auto;
+    right: 0;
+    top: 2em; 
+    z-index: 9970;
+}
+.divOne{
+    
+    margin-top: 1em;
+    padding: 0.4em;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    backdrop-filter: blur(1em);
+    background-color: rgba(0, 0, 0, 0.138);
+    
+}
+.div2{
+    backdrop-filter: blur(0.7em);
+    margin: 3px;
+    display: block;
+    padding: 1em;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.199);
+    border: solid 2px black;
+}
+.div2 div{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 2em;
+   
+}
+.div2 button{
+    color: black;
+    border: none;
+    padding: 0.2em;
+    margin-bottom: 0.5em;
+    background-color: rgba(50, 50, 50, 0);
+}
+#2tuff:hover{
+    Color: rgba(217, 0, 170, 0.782);
+}
+
+.div2 img{
+    float: left;
+    display: inline;
+    width: 2em;
+}
+.divOne h4{
+    margin-top: 0px;
+    margin-bottom: 5px;
+    font-size: 1.5em;
+    border-radius: 10px;
+    color: rgba(131, 131, 131, 0.697);
+    background-color: rgba(255, 255, 255, 0);
+    display: inline-block;
+}
+.divOne #ewt{
+    margin-top: -20px;
+    font-size: 1.5em;
+    border-radius: 10px;
+    color: rgb(137, 102, 144);
+    background-color: rgba(255, 255, 255, 0);
+    display: inline-block;
+}
+.divOne h3{
+    text-align: right;
+    font-size: 5vw;
+    margin: 30px 0 0 0;
+    
+    
+}
+#main h1{
+    margin-top: 0.5em;
+    margin-bottom: 0;
+    font-size: 5vw;
+}
+

@@ -4,7 +4,7 @@ function Footer(){
         color:"white",
         backgroundColor:"rgba(19, 19, 19, 1)",
         padding:"25px",
-
+        position:"relative"
     }
     return(
         <footer style={style_Footer}>

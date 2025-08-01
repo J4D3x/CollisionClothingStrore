@@ -1,0 +1,30 @@
+#jade2tuff{
+    
+    text-align: center;
+    background-color: rgb(10, 10, 10);
+    margin-bottom: -20px;
+    margin-top: -10px;
+    
+    
+}
+#jade2tuff p{
+    padding: 2px;
+    font-size: 60%;
+    color: rgb(255, 248, 252);
+    animation:infinite 7s infinite ease-in-out ;
+  
+}
+@keyframes infinite{
+
+    0%{
+        transform: translateY(-5em);}
+
+    30%{
+        transform: translateX(0em);
+    }
+     60%{
+        transform: translateX(0em);
+    }
+    100%{
+        transform: translateY(-5em);}
+}

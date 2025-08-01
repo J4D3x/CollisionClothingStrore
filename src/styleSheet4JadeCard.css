@@ -2,34 +2,38 @@
     display: none;
 }
 #quickCssJadeCard{
+    
     color: black; 
     text-align: left;
     
 }
 #backgroundwayy{
-    background-image: linear-gradient( rgba(0, 0, 0, 0.94),rgba(255, 255, 255, 0.684)), url(images/testingBackground.jpg);
+    
+    position: relative;
+    backdrop-filter:blur(0.9em);
+    background-image: linear-gradient( rgb(0, 0, 0),rgba(255, 255, 255, 0)),url(/images/wolla.jpg);
+    opacity: 1;
     background-size: 50%;
     background-repeat: no-repeat;
     background-position: 0px ;
     background-size: cover;
-    border-Radius: 10px;
-    box-Shadow: 0 0 2em rgb(82, 82, 82);
+    border: solid 2px rgb(0, 0, 0) ;
+    background-color: rgba(0, 0, 0, 0.279);
     padding: 0.6em;
     display: inline-block;
-    overflow:hidden;
-    color:rgb(217, 217, 217);
-    width: 15em;
-    height: auto;
-    margin: 0.4em;
-    margin-top: 1em;
+    color:rgb(255, 255, 255);
+    width: 14em;
+    height: 27em;
+    
+    margin-top: 2em;
     
   
 }
 #backgroundwayy:hover{
-    box-shadow: 0 0 10px  rgb(95, 0, 133);
+    box-shadow: 0 0 10px  rgb(133, 0, 124);
 }
 #backgroundwayy:hover h2{
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.871);
+    text-shadow: 0 0 10px rgb(97, 0, 71);
     
 }
 #backgroundwayy:hover .imageStyle{
@@ -37,6 +41,8 @@
 }
 
 #dropdown h6{
+     background-color: rgba(21, 0, 29, 0.483); 
+     color: white;
     text-align: left;
     margin: 0;
     padding: 0.5em; 
@@ -45,11 +51,12 @@
     background-color: rgba(88, 3, 121, 0.483); 
     color: white;
 }
+
 #Colorbutton:hover{
-    background-color: rgba(128, 128, 128, 0.235);
+    background-color: rgba(164, 1, 112, 0.632);
 }
 #Colorbutton:active{
-    background-color: rgba(155, 1, 216, 0.326);
+    background-color: rgba(216, 1, 159, 0.609);
 }
 input[type="radio"]{
     accent-color: rgb(156, 1, 216);
@@ -60,6 +67,55 @@ input[type="radio"]{
 #Cartbutton:active{
      background-color: rgba(155, 1, 216, 0.126);
 }
+.imageStyle2{
+    animation-name: translation;
+    animation-duration: 1s;
+    width: 100%;
+}
+@keyframes translation{
+    from{ transform: translateY(-40%);}
+}
+@keyframes JUMP{
+    0%{ transform: scale(100%);
+        }
+    50%{ transform: scale(110%);
+        background-color: rgb(51, 0, 88);}
+    100%{ transform: scale(100%);}
+}
+
+@keyframes JUMP2{
+    0%{ 
+       opacity: 0; }
+    50%{ 
+        color: rgb(183, 0, 0);
+        opacity: 1;}
+    100%{
+        opacity: 0;
+    }
+}
+
+#zoomnyana p{
+    font-size: 110%;
+    color: rgb(255, 255, 255);
+    background-color: rgba(174, 2, 183, 0.689);
+    padding: 2px;
+    animation: JUMP 2s infinite;
+    
+    
+}
+#zoomnyana p:hover{
+  
+    background-color: rgba(123, 0, 130, 0.798);
+    text-shadow: 0 0 5px white;
+}
+#zoomnyana a{
+    text-decoration: none; 
+}
+#EXIT:hover{
+    font-size: 110%;
+    color: rgb(255, 1, 255);
+}
+
 
 
 

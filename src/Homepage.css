@@ -1,0 +1,92 @@
+
+@keyframes animationView{
+    from{ transform: translateX(-100em);}
+}
+@keyframes animationView2{
+    from{ opacity:0%}
+}
+@keyframes beautifulAni{
+    0%{
+
+    }
+    50%{
+        font-size: 0.85vw;
+        background-color: rgba(251, 132, 172, 0.201);
+    }
+    100%{
+
+    }
+}
+
+#InfoContainer{
+padding: 2em;
+display: flex;
+background-color: rgb(13, 13, 13);
+}
+#info{
+    text-align: right;
+    padding-right: 20px;
+    width:50%;
+    margin: 0;
+    
+}
+#info p{
+    text-shadow: 0 0 5px rgb(255, 0, 162);
+    font-size: 2vw;  
+}
+#info h2{
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.749);
+    font-size: 6vw;
+    margin: 0;
+}
+#divButton{
+    text-decoration: none;
+    bottom: 20%;
+    background-color: rgba(3, 3, 3, 0.211);
+    display: inline-block;
+    position: absolute;
+    font-size: 0.6vw;
+    padding: 2px;
+    border: solid 2px rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(1px);
+    
+}
+#divButton:hover{
+    animation-name: beautifulAni;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    
+}
+#divButton a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.784);
+}
+#info2{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width:50%;
+    margin: 0;
+    position: relative;
+}
+
+
+#info2 img{
+    width: 28vw;
+    
+}
+#info #EXTRAP{
+    padding-left: none;
+    text-shadow: 0 0 5px rgb(255, 0, 162);
+    color: rgb(255, 255, 255);
+    font-size: 2vw;
+    text-align: left;
+    text-decoration: none;
+    font-style: normal;
+    list-style-type: none;
+}
+#h2_2{
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.749);
+    text-align: left;
+}
